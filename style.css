@@ -1,0 +1,145 @@
+
+
+
+header {
+    width:100%;
+    height: 715px;
+    background-color: #FFFBF0;
+    margin: 0 auto;
+}
+
+
+nav .nav-bar {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.nav-bar-img  img {
+width: 291px;
+height: 39px;
+}
+.nav-bar-tex  ul {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    font-size: 18px;
+    font-weight: 500;
+    list-style: none;
+}
+
+/* gool font */
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.head-continor {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.head-tex {
+    width: 100%;
+}
+.head-img {
+    width: 100%;
+}
+.head-tex h2 {
+    font-size: 70px;
+    color: #FABE4C;
+    margin: 0;
+    margin-top: 100px;
+}
+.head-tex h3 {
+    font-size: 70PX;
+    color:#363958;
+    margin: 0;
+}
+.head-tex p {
+    font-size: 16px;
+    font-weight: 400;
+    color:#3E3E3E;
+    margin-bottom: 30px;
+}
+
+.batoon {
+    width: 100px;
+    padding: 20px 33px;
+    background-image: linear-gradient(to left top, #a4bc46, #9cb53c, #94ae31, #8da726, #85a019);
+    border-radius: 10px;
+    color: #FFFBF0;
+}
+.batoon a {
+    color: #FFFBF0;
+    text-decoration: none;
+}
+
+/* main section css */
+main {
+width: 90%;
+margin: 0 auto;
+}
+main .jacket {
+    display: flex;
+    gap: 50px;
+}
+
+.jacket-img img {
+    width: 50%;
+    /* height: 293px; */
+    background-color: #F1F1F1;
+    padding: 85px 85px;
+    border-radius: 20px;
+
+    
+}
+.jacket-box {
+    display: flex;
+    flex-direction:column;
+    background-color:#FFFBF0;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.jacket-img {
+    display: flex;
+    justify-content: center;
+}
+.jacket-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.jacket-info p {
+    font-size: 16px;
+    color:#3E3E3E;
+    
+}
+.jacket-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.jacket-1 .pric {
+    font-size: 36px;
+    color: #FABE4C;
+    font-weight: 900;
+}
+.jacket-1 .odar {
+    width: 100px;
+    padding: 20px 33px;
+    background-image: linear-gradient(to left top, #a4bc46, #9cb53c, #94ae31, #8da726, #85a019);
+    border-radius: 10px;
+    color: #FFFBF0; 
+}
+.jacket-1 a {
+    color: #FFFBF0;
+    text-decoration: none;
+}
+main h1 {
+    padding: 30px 0;
+    color:#363958;
+    ;
+}
